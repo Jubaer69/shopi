@@ -21,8 +21,9 @@ import Error from './screens/Error.jsx'
 // import { PersistGate } from 'redux-persist/integration/react'
 import {persistStore} from 'redux-persist'
 import { PersistGate } from 'redux-persist/integration/react'
-import IsUser from './middleware/isUser.jsx'
+
 import IsAdmin from './middleware/IsAdmin.jsx'
+import IsUser from './middleware/IsUser.jsx'
 
 function ScrollToTop() {
   const { pathname } = useLocation();
